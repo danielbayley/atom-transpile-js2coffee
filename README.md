@@ -18,7 +18,7 @@ License
 [MIT]:              LICENSE.md
 [Daniel Bayley]:    https://github.com/danielbayley
 [atom]:             https://atom.io
-[apm]:              https://img.shields.io/apm/v/transpile-decaf.svg?style=flat-square
+[apm]:              https://img.shields.io/apm/v/transpile-js2coffee.svg?style=flat-square
 [package]:          https://atom.io/packages/transpile-decaf
 [chat]:             https://img.shields.io/badge/chat-atom.io%20slack-ff69b4.svg?style=flat-square
 [#slack]:           https://atom-slack.herokuapp.com
