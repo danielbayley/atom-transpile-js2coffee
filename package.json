@@ -1,0 +1,43 @@
+{
+  "name": "transpile-js2coffee",
+  "version": "0.0.0",
+  "description": "JavaScript to CoffeeScript provider for atom-transpile.",
+  "keywords": [
+    "transpile",
+    "refactor",
+    "javascript",
+    "coffeescript"
+  ],
+  "homepage": "https://atom.io/packages/transpile-js2coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbayley/atom-transpile-js2coffee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielbayley/atom-transpile-js2coffee/issues"
+  },
+  "author": "Daniel Bayley <daniel.bayley@me.com> (https://github.com/danielbayley)",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "js2coffee": "^2.2.0",
+    "loophole": "^1.1.0"
+  },
+  "scripts": {
+    "preinstall": "apm install transpile"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "providedServices": {
+    "transpile": {
+      "versions": {
+        "1.0.0": "activate"
+      }
+    }
+  },
+  "projectmanager": {
+    "title": "transpile-js2coffee",
+    "template": "atom-package"
+  }
+}
